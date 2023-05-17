@@ -11,7 +11,8 @@ public class MainActivity extends AppCompatActivity {
         Log.i("disp","there is an error here");
     }
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
